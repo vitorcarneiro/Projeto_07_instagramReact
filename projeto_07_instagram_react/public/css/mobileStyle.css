@@ -1,0 +1,106 @@
+/* This is mobile style css for instagram
+Author: Vitor Carneiro Silva de Oliveira*/
+
+@media (max-width: 935px) {
+/* \/ HEADER ------------------------------------------------------------------ \/ */
+    .logoHeader {
+        margin-left: 21px;
+    }
+
+    .iconsHeader a {
+        margin-left: 0;
+        margin-right: 21px;
+    }
+
+/* /\ HEADER ------------------------------------------------------------------ /\ */
+
+/* \/ MAIN -------------------------------------------------------------------- \/ */
+    main {
+        margin-right: 0;
+    }
+/* /\ MAIN -------------------------------------------------------------------- /\ */
+
+/* \/ LATERAL BAR ------------------------------------------------------------- \/ */
+    aside {
+        display: none;
+    }
+/* /\ LATERAL BAR ------------------------------------------------------------- /\ */
+    
+}
+
+@media (max-width: 614px) {
+
+/* \/ HEADER ------------------------------------------------------------------ \/ */
+    .headerBackground {
+        width: 100%;
+    }
+
+    .searchBox {
+        display: none;
+    }
+
+    .logoHeader {
+        width: auto;
+    }
+
+    .logoHeader ion-icon {
+        padding: 0;
+        border: 0;
+
+        margin-left: 21.38px;
+    }
+
+    .logoHeader img {
+        display: none;
+    }
+
+    .iconsHeader {
+        display: none;
+    }
+
+    .logoMobile {
+        display: initial;
+    }
+
+    .iconMobile {
+        display: initial;
+        color: black;
+
+        margin-right: 18px;
+    }
+
+    .iconMobile a {
+        color: black;
+        font-size: 22px;
+    }
+/* \/ MAIN -------------------------------------------------------------------- \/ */
+    main {
+        width: 100%;
+
+        margin: 0;
+    }
+
+/* \/ stories ----------------------------------- \/ */
+    .storiesBar {
+        background-color: #E5E5E5;
+
+        width: 100%;
+        height: auto;
+
+        padding: 0;
+
+        margin-top: 17px;
+        margin-bottom: 18px;
+        margin-left: 18px;
+
+        border: 0px;
+    }
+
+    .storiesBar a ion-icon {
+        display: none;
+    }
+/* /\ stories ----------------------------------- /\ */
+/* /\ MAIN -------------------------------------------------------------------- /\ */
+
+
+}

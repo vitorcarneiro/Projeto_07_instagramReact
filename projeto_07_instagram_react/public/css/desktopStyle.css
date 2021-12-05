@@ -1,0 +1,459 @@
+/* This is desktop style css for instagram
+Author: Vitor Carneiro Silva de Oliveira*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+
+    box-sizing: border-box;
+}
+
+img {
+    object-fit: cover;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+    background-color: #E5E5E5;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 54px;
+}
+
+/* \/ Anchors \/ */
+a {
+    text-decoration: none;
+    color: black;
+  }
+ 
+/* /\ Anchors /\ */
+
+p {
+    color: #8E8E8E;
+    font-weight: 400;
+}
+
+/* \/ Inputs \/ */
+input {
+    background-color: #FAFAFA;
+    border: 0px; 
+    
+    color: #979797;
+    
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+input:active {
+    border: 0px;
+}
+/* /\ Inputs /\ */
+
+strong {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+
+/* \/ HEADER ------------------------------------------------------------------ \/ */
+
+header {
+    width: 100%;
+    height: 54px;
+
+    background-color: white;
+
+    border-bottom: 1px solid #DBDBDB;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerBackground {
+    position: relative;
+
+    width: 937px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* \/ LogoHeader \/ */
+.logoHeader {
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoHeader ion-icon {
+    font-size: 22px;
+    padding-right: 11.38px;
+    border-right: 1px solid;
+}
+
+.logoHeader img {
+    padding-left: 10px;
+}
+/* /\ LogoHeader /\ */
+
+/* \/ SearchBox \/ */
+.searchBox {
+    background-color: #FAFAFA;
+    
+    width: 215px;
+    height: 28px;
+    
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* /\ SearchBox /\ */
+
+.iconsHeader {
+    font-size: 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconsHeader a {
+    margin-left: 25px;
+    color: black;
+}
+
+.logoMobile {
+    display: none;
+}
+
+.iconMobile {
+    display: none;
+}
+
+/* /\ HEADER ------------------------------------------------------------------ /\ */
+
+/* \/ MAIN -------------------------------------------------------------------- \/ */
+main {
+    display: flex;
+    flex-direction: column;
+    
+    width: 614px;
+    
+    margin-right: 28px;
+}
+
+/* \/ stories ----------------------------------- \/ */
+.storiesBar {
+    background-color: white;
+    
+    width: 100%;
+    height: 118px;
+    
+    margin-top: 34px;
+    margin-bottom: 24px;
+    
+    padding: 18px 0 14px 18px;
+
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    
+    display: flex;
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+.userStorie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin-right: 14px;
+}
+
+
+.userStoriePhoto {
+    width: 66px;
+    height: 66px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(/assets/stories_background.png);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    background-size: 66px;
+    }
+
+.userStoriePhoto img {
+    width: 56px;
+    height: 56px;
+
+    border-radius: 50%;
+}
+
+.userStorieName {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+
+}
+
+.storiesBar a ion-icon {
+    position: absolute;
+    top: 46px;
+    right: 8px;
+
+    font-size: 26px;
+    color: white;
+}
+/* /\ stories ----------------------------------- /\ */
+
+/* \/ feed -------------------------------------- \/ */
+.postsFeed {
+    width: 100%;
+    height: auto;
+}
+
+/* \/ post ------------------ */
+.post {
+    background-color: white;
+    
+    width: 100%;
+    height: 749px;
+    
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    
+    margin-bottom: 60px;
+}
+
+.post img {
+    width: 100%;
+    height: 612px;
+}
+
+.postTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin: 15px 18.5px 14px 17px;
+}
+
+.followingUser {
+    display: flex;
+    align-items: center;
+}
+
+.followingUser img {
+    width: 32px;
+    height: 32px;
+    
+    border-radius: 50%;
+
+    margin-right: 15px;
+}
+
+.followingUser {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.postLower {
+    font-size: 22px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 12px;
+    margin-right: 17px;
+    margin-left: 17px;
+}
+
+.postLower a:hover {
+    color: #C7C7C7;
+}
+
+.likeComment ion-icon {
+    margin-right: 7px;
+}
+
+.likedBar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    margin: 5px 17px 14px 17px;
+    
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.likedBar img {
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 50%;
+    
+    margin-right: 5px;
+}
+
+video {
+    width: 612px;
+    height: 612px;
+}
+/* /\ post ------------------ */
+/* /\ feed -------------------------------------- /\ */
+
+/* /\ MAIN -------------------------------------------------------------------- /\ */
+
+
+/* \/ LATERAL BAR ------------------------------------------------------------- \/ */
+aside {
+    width: 300px;
+    height: 348px;
+    
+    margin-top: 57px;
+
+    position: -webkit-sticky;
+    position: sticky;
+
+    top: 110px;
+}
+
+aside img {
+    border-radius: 50%;
+}
+
+.userPerfil {
+    display: flex;
+    
+    align-items: center;
+    
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.userPerfil img {
+    margin-right: 17px;
+    
+    width: 56px;
+    height: 56px;
+}
+
+.userPerfil div {
+    width: 182px;
+    height: 34px;
+}
+
+.userPerfil a {
+    font-weight: 500;
+}
+
+.userPerfil p {
+    font-weight: 300;
+}
+
+.suggestions {
+    font-size: 12px;
+    font-weight: 500;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 24px;
+    margin-bottom: 17px;
+}
+.suggestedFollows {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 17px;
+    
+    font-weight: 400;    
+}
+
+.suggestedFollows img {
+    width: 32px;
+    height: 32px;
+    margin-right: 11px;
+}
+
+.suggestedFollows a {
+    font-size: 12px;
+    font-weight: 500;
+    color: #139EF2;
+}
+
+.someoneToFollow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.someoneToFollow a {
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+}
+
+.toFollow:hover {
+    text-decoration: underline;
+}
+
+.someoneToFollow p {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.aboutInstagram {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0em;
+    
+    margin-bottom: 18px;
+}
+
+.aboutInstagram a {
+    color: #C7C7C7;
+}
+
+.instagramRights {
+    color: #C7C7C7;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0em;
+}
+/* /\ LATERAL BAR ------------------------------------------------------------- /\ */
+
