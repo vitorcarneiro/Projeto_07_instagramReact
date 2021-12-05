@@ -1,4 +1,6 @@
 export default function Aside() {
+    const suggestedFollows = ["mauricioaraujosousa", "jeremias10", "anjinho", "chiquinho-bento", "bidu"];
+
     return (
         <aside>
 			<div class="userPerfil">

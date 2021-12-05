@@ -4,10 +4,10 @@ export default function SinglePost(props) {
             <div class="postTop">
                 <div class="followingUser">  
                     <a href="#">
-                        <img src={props.profilePic} alt={props.person + "Profile Picture"} />
+                        <img src={props.accountPictureLink} alt={props.accountName + "Profile Picture"} />
                     </a>                    
                     <a class="toFollow" href="#">
-                        {props.person}
+                        {props.accountName}
                     </a>
                 </div>
                 <a href="#">
@@ -15,7 +15,7 @@ export default function SinglePost(props) {
                 </a>
             </div>   
                     
-            <img src={props.postedPic} alt={props.person + "Posted Picture"}/>
+            <img src={props.postedPicLink} alt={props.accountName + "Posted Picture"}/>
                 <div class="postLower">
                     <div class="likeComment">
                         <a href="#">
@@ -35,12 +35,12 @@ export default function SinglePost(props) {
     
             <div class="likedBar">
                 <a href="#">
-                    <img src={props.mainLikePersonProfilePic} alt={props.mainLikePerson + "Profile Pic"}/>
+                    <img src={props.mainLikePersonPictureLink} alt={props.mainLikePersonName + "Profile Pic"}/>
                 </a>
                 <p>
                     Curtido por 
                     <a class="toFollow" href="#">
-                        <strong> {props.mainLikePerson} </strong>
+                        <strong> {props.mainLikePersonName} </strong>
                     </a>
                         e 
                     <a href="#">

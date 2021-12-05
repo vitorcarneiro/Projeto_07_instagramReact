@@ -1,4 +1,6 @@
 export default function Stories() {
+    const storiesFeed = ["cascao", "franjinha", "monica", "magali", "xaveco", "jotalhao", "louco", "humberto"];
+
     return (
         <div class="storiesBar">
             <div class="userStorie">
