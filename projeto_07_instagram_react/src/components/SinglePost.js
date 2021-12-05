@@ -1,13 +1,13 @@
-export default function SinglePost(props) {
+export default function SinglePost({accountName, accountPictureLink, postedPicLink, mainLikePersonName, mainLikePersonPictureLink, likes}) {
     return (
         <div class="post">
             <div class="postTop">
                 <div class="followingUser">  
                     <a href="#">
-                        <img src={props.accountPictureLink} alt={props.accountName + "Profile Picture"} />
+                        <img src={accountPictureLink} alt={accountName + "Profile Picture"} />
                     </a>                    
                     <a class="toFollow" href="#">
-                        {props.accountName}
+                        {accountName}
                     </a>
                 </div>
                 <a href="#">
@@ -15,7 +15,7 @@ export default function SinglePost(props) {
                 </a>
             </div>   
                     
-            <img src={props.postedPicLink} alt={props.accountName + "Posted Picture"}/>
+            <img src={postedPicLink} alt={accountName + "Posted Picture"}/>
                 <div class="postLower">
                     <div class="likeComment">
                         <a href="#">
@@ -35,16 +35,16 @@ export default function SinglePost(props) {
     
             <div class="likedBar">
                 <a href="#">
-                    <img src={props.mainLikePersonPictureLink} alt={props.mainLikePersonName + "Profile Pic"}/>
+                    <img src={mainLikePersonPictureLink} alt={mainLikePersonName + "Profile Pic"}/>
                 </a>
                 <p>
                     Curtido por 
                     <a class="toFollow" href="#">
-                        <strong> {props.mainLikePersonName} </strong>
+                        <strong> {mainLikePersonName} </strong>
                     </a>
                         e 
                     <a href="#">
-                        <strong> outras {props.likes - 1} pessoas</strong>
+                        <strong> outras {likes - 1} pessoas</strong>
                     </a>
                 </p>
             </div>
