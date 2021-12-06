@@ -17,7 +17,7 @@ export default function SinglePost({accountName, accountPictureLink, postedPicLi
                     
             <img src={postedPicLink} alt={accountName + " Posted Picture"}/>
                 <div class="post-lower">
-                    <div class="likeComment">
+                    <div class="like-comment">
                         <a href="#">
                             <ion-icon name="heart-outline"></ion-icon>
                         </a>

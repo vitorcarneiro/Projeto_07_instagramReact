@@ -33,7 +33,7 @@ export default function Aside({userData}) {
         <aside>
 			<div class="user-profile">
                 <a href="#">
-                    <img src="https://img.elo7.com.br/product/main/3644560/painel-redondo-cebolinha-temas.jpg" alt="userProfilePhoto" />
+                    <img src={userData.profilePic} alt="userProfilePhoto" />
                 </a>
                 <div>    
                     <a href="#">

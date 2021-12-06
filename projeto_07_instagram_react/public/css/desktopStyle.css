@@ -37,9 +37,14 @@ p {
 }
 
 /* \/ Inputs \/ */
-input {
+header input {
     background-color: #FAFAFA;
-    border: 0px; 
+
+    width: 215px;
+    height: 28px;
+
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
     
     color: #979797;
     
@@ -111,23 +116,6 @@ header {
 .logo-header img {
     padding-left: 10px;
 }
-/* /\ LogoHeader /\ */
-
-/* \/ SearchBox \/ */
-.search-box {
-    background-color: #FAFAFA;
-    
-    width: 215px;
-    height: 28px;
-    
-    border: 1px solid #DBDBDB;
-    border-radius: 3px;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* /\ SearchBox /\ */
 
 .icons-header {
     font-size: 22px;

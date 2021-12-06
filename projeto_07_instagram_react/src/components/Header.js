@@ -7,10 +7,8 @@ export default function Header() {
                     <img src="./assets/img/logo.png" alt="logo-instagram" />
                 </a>
 			
-                <div class="search-box">
-                    <input type="text" placeholder="Pesquisar" />
-                </div>
-			
+                <input class="search-box" type="text" placeholder="Pesquisar" />
+                
                 <div class="logo-mobile"> 
                     <a href="#">
                     <img src="./assets/img/logo.png" alt="logo-instagram"/>
