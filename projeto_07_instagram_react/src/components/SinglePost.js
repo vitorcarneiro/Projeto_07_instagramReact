@@ -6,7 +6,7 @@ export default function SinglePost({accountName, accountPictureLink, postedLink,
 
     } else {
         ToPost = 
-            <video autoplay>
+            <video autoplay="autoplay" loop="true">
                 <source src={postedLink[0]} type="video/mp4" />
                 <source src={postedLink[1]} type="video/ogg" />
                 Your browser does not support the video tag.
