@@ -5,7 +5,6 @@ export default function SinglePost({accountName, accountPictureLink, postedLink,
         ToPost = <img src={postedLink} alt={accountName + " Posted Picture"}/>;
 
     } else {
-        console.log(postedLink[1]);
         ToPost = 
             <video autoplay>
                 <source src={postedLink[0]} type="video/mp4" />
