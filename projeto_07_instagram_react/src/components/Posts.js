@@ -52,7 +52,7 @@ export default function Posts(props) {
             },
 
             totalLikes: "83"
-        },
+        }
         // {
         //     account: 
         //     {

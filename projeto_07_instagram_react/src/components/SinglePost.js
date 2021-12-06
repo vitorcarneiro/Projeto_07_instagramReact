@@ -4,7 +4,7 @@ export default function SinglePost({accountName, accountPictureLink, postedPicLi
             <div class="postTop">
                 <div class="followingUser">  
                     <a href="#">
-                        <img src={accountPictureLink} alt={accountName + "Profile Picture"} />
+                        <img src={accountPictureLink} alt={accountName + " Profile Picture"} />
                     </a>                    
                     <a class="toFollow" href="#">
                         {accountName}
@@ -15,7 +15,7 @@ export default function SinglePost({accountName, accountPictureLink, postedPicLi
                 </a>
             </div>   
                     
-            <img src={postedPicLink} alt={accountName + "Posted Picture"}/>
+            <img src={postedPicLink} alt={accountName + " Posted Picture"}/>
                 <div class="postLower">
                     <div class="likeComment">
                         <a href="#">
@@ -35,7 +35,7 @@ export default function SinglePost({accountName, accountPictureLink, postedPicLi
     
             <div class="likedBar">
                 <a href="#">
-                    <img src={mainLikePersonPictureLink} alt={mainLikePersonName + "Profile Pic"}/>
+                    <img src={mainLikePersonPictureLink} alt={mainLikePersonName + " Profile Pic"}/>
                 </a>
                 <p>
                     Curtido por 
