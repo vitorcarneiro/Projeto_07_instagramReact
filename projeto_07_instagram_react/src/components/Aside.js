@@ -1,6 +1,6 @@
 import SuggestionsToFollow from "./SuggestionToFollow";
 
-export default function Aside() {
+export default function Aside({userData}) {
     const suggestedFollows = [
         {
             accountName: "mauricioaraujosousa",
@@ -31,15 +31,15 @@ export default function Aside() {
 
     return (
         <aside>
-			<div class="userPerfil">
+			<div class="user-profile">
                 <a href="#">
                     <img src="https://img.elo7.com.br/product/main/3644560/painel-redondo-cebolinha-temas.jpg" alt="userProfilePhoto" />
                 </a>
                 <div>    
                     <a href="#">
-                        cebolinha
+                        {userData.name}
                     </a>
-                    <p>O único que usa sapato</p>
+                    <p>{userData.description}</p>
                 </div>
             </div>
 		
@@ -55,15 +55,15 @@ export default function Aside() {
                 accountPictureLink={suggestionToFollow.accountPictureLink}
                 description={suggestionToFollow.description}
                  />
-                ))}
+            ))}
     
-            <div class="aboutInstagram">
+            <div class="about-instagram">
                 <a href="#">
                     Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma
                 </a> 
             </div>
     
-            <div class="instagramRights">
+            <div class="instagram-rights">
                 © 2021 INSTAGRAM DO FACEBOOK
             </div>
 		</aside>

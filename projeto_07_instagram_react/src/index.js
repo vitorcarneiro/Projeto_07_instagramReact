@@ -5,11 +5,13 @@ import MainContent from "./components/Main";
 import Aside from "./components/Aside";
 
 function App() {
+	const userData = {name: "cebolinha", description: "O único que usa sapato"};
+
 	return (
-		<div>
+		<div id="main">
 			<Header />
 			<MainContent />
-			<Aside />
+			<Aside userData={userData} />
 		</div>
 	);
 }

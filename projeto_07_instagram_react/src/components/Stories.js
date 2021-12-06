@@ -37,12 +37,12 @@ export default function Stories() {
     ];
         
     return (
-        <div class="storiesBar">
+        <div class="stories-bar">
            {storiesFeed.map((storie) => (
                 <SingleStorie accountName={storie.accountName}
                 accountPictureLink={storie.accountPictureLink}
                  />
-                ))}
+            ))}
 
             <a href="#">
                 <ion-icon name="chevron-forward-circle"></ion-icon>

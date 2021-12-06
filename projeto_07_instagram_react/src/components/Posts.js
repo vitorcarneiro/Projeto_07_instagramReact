@@ -73,7 +73,7 @@ export default function Posts(props) {
     ];
 
     return (
-        <div class="postsFeed">
+        <div class="posts-feed">
 			 {postsFeed.map((post) => (
                 <SinglePost accountName={post.account.name}
                 accountPictureLink={post.account.pictureLink}

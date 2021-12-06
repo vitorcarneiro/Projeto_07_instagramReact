@@ -1,12 +1,12 @@
 export default function SinglePost({accountName, accountPictureLink, postedPicLink, mainLikePersonName, mainLikePersonPictureLink, likes}) {
     return (
         <div class="post">
-            <div class="postTop">
-                <div class="followingUser">  
+            <div class="post-top">
+                <div class="following-user">  
                     <a href="#">
                         <img src={accountPictureLink} alt={accountName + " Profile Picture"} />
                     </a>                    
-                    <a class="toFollow" href="#">
+                    <a class="to-follow" href="#">
                         {accountName}
                     </a>
                 </div>
@@ -16,7 +16,7 @@ export default function SinglePost({accountName, accountPictureLink, postedPicLi
             </div>   
                     
             <img src={postedPicLink} alt={accountName + " Posted Picture"}/>
-                <div class="postLower">
+                <div class="post-lower">
                     <div class="likeComment">
                         <a href="#">
                             <ion-icon name="heart-outline"></ion-icon>
@@ -33,13 +33,13 @@ export default function SinglePost({accountName, accountPictureLink, postedPicLi
                     </a>
                 </div>
     
-            <div class="likedBar">
+            <div class="liked-bar">
                 <a href="#">
                     <img src={mainLikePersonPictureLink} alt={mainLikePersonName + " Profile Pic"}/>
                 </a>
                 <p>
                     Curtido por 
-                    <a class="toFollow" href="#">
+                    <a class="to-follow" href="#">
                         <strong> {mainLikePersonName} </strong>
                     </a>
                         e 

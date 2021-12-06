@@ -1,23 +1,23 @@
 export default function Header() {
     return (
         <header>
-			<div class="headerBackground">
-                <a href="#" class="logoHeader">
+			<div class="header-background">
+                <a href="#" class="logo-header">
                     <ion-icon name="logo-instagram"></ion-icon>
                     <img src="./assets/img/logo.png" alt="logo-instagram" />
                 </a>
 			
-                <div class="searchBox">
+                <div class="search-box">
                     <input type="text" placeholder="Pesquisar" />
                 </div>
 			
-                <div class="logoMobile"> 
+                <div class="logo-mobile"> 
                     <a href="#">
                     <img src="./assets/img/logo.png" alt="logo-instagram"/>
                     </a>
                 </div>
 
-                <div class="iconsHeader">
+                <div class="icons-header">
                     <a href="#">
                         <ion-icon name="paper-plane-outline"></ion-icon>
                     </a>
@@ -32,7 +32,7 @@ export default function Header() {
                     </a>
                 </div>
                     
-                <div class="iconMobile">
+                <div class="icon-mobile">
                     <a href="#">
                         <ion-icon name="paper-plane-outline"></ion-icon>
                     </a>

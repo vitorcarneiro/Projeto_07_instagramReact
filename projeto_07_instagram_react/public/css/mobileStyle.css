@@ -3,11 +3,11 @@ Author: Vitor Carneiro Silva de Oliveira*/
 
 @media (max-width: 935px) {
 /* \/ HEADER ------------------------------------------------------------------ \/ */
-    .logoHeader {
+    .logo-header {
         margin-left: 21px;
     }
 
-    .iconsHeader a {
+    .icons-header a {
         margin-left: 0;
         margin-right: 21px;
     }
@@ -31,45 +31,45 @@ Author: Vitor Carneiro Silva de Oliveira*/
 @media (max-width: 614px) {
 
 /* \/ HEADER ------------------------------------------------------------------ \/ */
-    .headerBackground {
+    .header-background {
         width: 100%;
     }
 
-    .searchBox {
+    .search-box {
         display: none;
     }
 
-    .logoHeader {
+    .logo-header {
         width: auto;
     }
 
-    .logoHeader ion-icon {
+    .logo-header ion-icon {
         padding: 0;
         border: 0;
 
         margin-left: 21.38px;
     }
 
-    .logoHeader img {
+    .logo-header img {
         display: none;
     }
 
-    .iconsHeader {
+    .icons-header {
         display: none;
     }
 
-    .logoMobile {
+    .logo-mobile {
         display: initial;
     }
 
-    .iconMobile {
+    .icon-mobile {
         display: initial;
         color: black;
 
         margin-right: 18px;
     }
 
-    .iconMobile a {
+    .icon-mobile a {
         color: black;
         font-size: 22px;
     }
@@ -81,7 +81,7 @@ Author: Vitor Carneiro Silva de Oliveira*/
     }
 
 /* \/ stories ----------------------------------- \/ */
-    .storiesBar {
+    .stories-bar {
         background-color: #E5E5E5;
 
         width: 100%;
@@ -96,11 +96,9 @@ Author: Vitor Carneiro Silva de Oliveira*/
         border: 0px;
     }
 
-    .storiesBar a ion-icon {
+    .stories-bar a ion-icon {
         display: none;
     }
 /* /\ stories ----------------------------------- /\ */
 /* /\ MAIN -------------------------------------------------------------------- /\ */
-
-
 }
